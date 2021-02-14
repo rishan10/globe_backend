@@ -26,6 +26,7 @@ router.get('/', async function(req, res, next) {
     trimmed.push(articles[i]);
   }
 
+  res.header('Access-Control-Allow-Origin', '*');
   res.json(trimmed);
 });
 
