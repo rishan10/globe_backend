@@ -1,4 +1,3 @@
 
 node_modules
-globe.env
-bin/.env
+.env
